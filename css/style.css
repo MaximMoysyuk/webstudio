@@ -1,0 +1,69 @@
+:root{
+    --web-color: #2196F3;
+    --studio-color:#000; 
+    --mobile-color: rgba(117, 117, 117, 1);
+    --portfolio-color: #212121;
+    --background-color: #2F303A;
+    --effective-color: #FFF;
+    --accent-color: #757575;
+    --secondmobile-color: rgba(255, 255, 255, 0.60);
+    --team-color: rgba(245, 244, 250, 1);
+}
+.studio{
+    color: var(--studio-color);
+}
+.web{
+    color: var(--web-color);
+}
+.studium{
+    color: var(--web-color);
+}
+.portpholio{
+    color: var(--portfolio-color);
+}
+.contact{
+    color: var(--portfolio-color);
+}
+.mail{
+    color: var(--web-color);
+}
+.mobile{
+    color: var(--mobile-color);
+}
+.section{
+    background-color: var(--background-color);
+}
+h1{
+    color: var(--effective-color);
+}
+button{
+    background-color: var(--web-color);
+    color: var(--effective-color);
+}
+h3{
+    color: var(--portfolio-color);
+}
+p{
+    color: var(--accent-color);
+}
+h2{
+    color: var(--portfolio-color);
+}
+.team{
+    background-color: var(--team-color);
+}
+.footer{
+    background-color: var(--background-color);
+}
+.studio1{
+    color: var(--effective-color);
+}
+.addres{
+    color: var(--effective-color);
+}
+.mailto{
+    color: var(--secondmobile-color);
+}
+.tel{
+    color: var(--secondmobile-color);
+}
