@@ -1,113 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>webstudio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <a class="studio" href="./index.html"><span class="web">Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html" class="studium">Студія</a></li>
-          <li><a href="./pages/portfolio.html" class="portpholio">Портфоліо</a></li>
-          <li><a href="#" class="contact">Контакти</a></li>
+    <header class="header">
+      <a href="./index.html" class="header-logo"><span class="logo-color">Web</span>Studio</a>
+      <nav class="headre-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="./index.html" class="nav-link active">Студія</a></li>
+          <li class="nav-item"><a href="./pages/portfolio.html" class="nav-link">Портфоліо</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="mobile">+380961111111</a></li>
+      <ul class="header-list">
+        <li class="header-item"><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
+        <li class="header-item"><a href="tel:+380961111111" class="header-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section class="section">
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+
+        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button type="button" class="hero-btn">Замовити послугу</button>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+      <section class="advantages">
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h2 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="advantages-desk">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+          <li class="advantages-item">
+            <h2 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h2>
+            <p class="advantages-desk">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="advantages-item">
+            <h2 class="advantages-title">ПЛАНУВАННЯ</h2>
+            <p class="advantages-desk">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="advantages-item">
+            <h2 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p class="advantages-desk">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
-           <img src="./images/programming.jpg" alt="програмування">
-          </li>
-          <li>
-            <img src="./images/investing.jpg" alt="комп'ютер" >
-          </li>
-          <li>
-            <img src="./images/creating.jpg" alt="тест" >
-          </li>
+      <section class="work">
+        <h2 class="work-title">Чим ми займаємося</h2>
+        <ul class="work-list">
+          <li class="work-item"><img src="./images/programming.jpg" alt="ноутбук" class="work-img" /></li>
+          <li class="work-item"><img src="./images/investing.jpg" alt="телефон" class="work-img" /></li>
+          <li class="work-item"><img src="./images/creating.jpg" alt="планшет" class="work-img" /></li>
         </ul>
       </section>
       <section class="team">
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/igor.jpg" width="300" alt="Ігор Дем'яненко" >
-            <h4>Ігор Дем'яненко</h4>
-            <p>Product Designer</p>
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
+            <img src="./images/igor.jpg" alt="igor" class="team-img" />
+            <h3 class="team-caption">Ігор Дем'яненко</h3>
+            <p class="team-desk">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/olga.jpg" width="300" alt="Ольга Рєпіна" >
-            <h4>Ольга Рєпіна</h4>
-            <p>Frontend Developer</p>
+          <li class="team-item">
+            <img src="./images/olga.jpg" alt="olga" class="team-img" />
+            <h3 class="team-caption">Ольга Рєпіна</h3>
+            <p class="team-desk">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/mykola.jpg" width="300" alt="Микола Тарасов" >
-            <h4>Микола Тарасов</h4>
-            <p>Marketing</p>
+          <li class="team-item">
+            <img src="./images/mykola.jpg" alt="mykola" class="team-img" />
+            <h3 class="team-caption">Микола Тарасов</h3>
+            <p class="team-desk">Marketing</p>
           </li>
-          <li>
-            <img src="./images/mychailo.jpg" width="300" alt="Михайло Єрмаков" >
-            <h4>Михайло Єрмаков</h4>
-            <p>UI Designer</p>
+          <li class="team-item">
+            <img src="./images/mychailo.jpg" alt="mykhailo" class="team-img" />
+            <h3 class="team-caption">Михайло Єрмаков</h3>
+            <p class="team-desk">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="studio1" href="/index.html"
-        ><span class="web">Web</span>Studio</a>
-      <address >
-        <a class="addres" href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17" target="_blank">м. Київ, пр-т Лесі Українки, 26</a>
-        <ul>
-          <li><a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="tel" href="tel:+380961111111">+380961111111</a></li>
+      <a href="./index.html" class="footer-logo"><span class="footer-color">Web</span>Studio</a>
+      <address class="footer-address">
+        <a
+          href="https://www.google.com.ua/maps/search/%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26/@50.4259305,30.5102502,13z?entry=ttu"
+          target="_blank" class="address-link"
+          >м. Київ, пр-т Лесі Українки, 26</a
+        >
+        <ul class="footer-list">
+          <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+          <li class="footer-item"><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
