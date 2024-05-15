@@ -9,9 +9,18 @@
     --footer-number:rgba(255, 255, 255, 0.60);
 }
 
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    outline: 1px solid red ;
+}
+
+
 *,
-*::after,
-*::before {
+::after,
+::before {
 box-sizing: border-box;
 }
 
@@ -43,6 +52,8 @@ body {
 
 .header {
     background-color: var(--main-backgground-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo {
@@ -128,6 +139,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 .advantages {
     background-color: var(--main-backgground-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantages-title {
@@ -166,6 +179,8 @@ letter-spacing: 1.08px;
 
 .team {
     background-color: var(--main-background-team);
+    padding-top: 93px;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -199,6 +214,9 @@ letter-spacing: 0.48px;
 
 .footer {
     background-color: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .footer-logo {
@@ -233,4 +251,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+
+.card {
+    padding-top: 108px;
+    padding-bottom: 80px;
+    
+
 }
