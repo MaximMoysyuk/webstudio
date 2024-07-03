@@ -364,6 +364,14 @@ letter-spacing: 0.48px;
     gap: 30px;
 }
 
+.card-item{
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.card-img{
+    width: 100%;
+}
+
 .card-box{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -388,3 +396,5 @@ font-weight: 400;
 line-height: 1.87;
 letter-spacing: 0.48px;
 }
+
+
